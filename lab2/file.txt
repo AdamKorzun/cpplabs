@@ -1,0 +1,55 @@
+Robert Lewandowski
+Bayern Munich
+Forward
+6
+5
+Cristiano Ronaldo
+Juventus
+Forward
+7
+4
+Lionel Messi
+Barcelona
+Forward
+10
+3
+Sadio Mane
+Liverpool
+Forward
+5
+3
+Mohamed Salah
+Liverpool
+Forward
+4
+3
+Frenkie de Jong
+Barcelona
+Midfielder
+2
+3
+Kylian Mbappe
+Paris Saint-Germain
+Forward
+3
+1
+Virgil van Dijk
+Liverpool
+Defender
+9
+0
+Alisson
+Liverpool
+Goalkeeper
+7
+0
+Raheem Sterling
+Manchester City
+Forward
+4
+0
+Test
+Test
+Forward
+4
+0

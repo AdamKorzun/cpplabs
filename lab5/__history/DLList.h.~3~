@@ -1,0 +1,25 @@
+//---------------------------------------------------------------------------
+
+#ifndef DLListH
+#define DLListH
+//---------------------------------------------------------------------------
+#endif
+#include "Queue.h"
+class DLList : private Queue{
+	void Swap(){
+
+		Node* temp = Tail;
+		temp=Head;
+		int maxEl = temp->x;
+		int minEl = temp->x;
+		while(temp != NULL){
+			if (temp->x > maxEl) {
+				maxEl = temp->x;
+			}
+			else if (temp->x < minEl) {
+                minEl = temp->x;
+			}
+			temp = temp->next;
+		}
+	}
+};

@@ -1,0 +1,27 @@
+//---------------------------------------------------------------------------
+//#include <ustring.h>
+
+#ifndef PlayerH
+#define PlayerH
+#include <string.h>
+#include <iostream>
+//---------------------------------------------------------------------------
+#endif
+using namespace std;
+class Player{
+	private:
+		string name;
+		string club;
+		string role;
+		int numberOfGoals;
+		int penalties;
+	public:
+		Player();
+		Player(string name, string club, string role, int numberOfGoals, int penalties);
+		void SetName(string);
+		void SetClub(string);
+		void SetRole(string);
+		void SetNumberOfGoals(int);
+		void SetPenalties(int);
+		~Player(){}
+};

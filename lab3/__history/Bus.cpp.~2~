@@ -1,0 +1,14 @@
+//---------------------------------------------------------------------------
+
+#pragma hdrstop
+
+#include "Bus.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+
+int Bus::GetNumber(){
+	return number;
+}
+void Bus::SetNumber(int number){
+    this->number = number;
+}

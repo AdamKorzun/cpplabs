@@ -1,0 +1,42 @@
+//---------------------------------------------------------------------------
+
+#pragma hdrstop
+#include <string.h>
+#include <iostream>
+#include "Player.h"
+
+Player::Player()
+	{
+
+	}
+Player::Player(string name, string club, string role,
+	int numberOfGoals, int penalties)
+	{
+	this->name = name;
+	this->club = club;
+	this->role = role;
+	this->numberOfGoals = numberOfGoals;
+	this->penalties = penalties;
+	}
+void Player::SetName(string name)
+{
+	this->name = name;
+}
+void Player::SetClub(string club)
+{
+	this->club = club;
+}
+void Player::SetRole(string role)
+{
+	this->role = role;
+}
+void Player::SetNumberOfGoals(int nubmerOfGoals)
+{
+	this->numberOfGoals = numberOfGoals;
+}
+void Player::SetPenalties(int penalties)
+{
+	this->penalties = penalties;
+}
+//---------------------------------------------------------------------------
+#pragma package(smart_init)

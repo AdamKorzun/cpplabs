@@ -1,0 +1,35 @@
+//---------------------------------------------------------------------------
+
+#ifndef QueueH
+#define QueueH
+//---------------------------------------------------------------------------
+#endif
+struct Node {
+	 int x;
+	 Node* next;
+	 Node* prev;
+}
+class Queue{
+	protected:
+	Queue* Head;
+	Queue* Tail;
+	public:
+	Queue(){
+		Head = 0;
+		Tail = 0;
+	}
+	void Show(){
+
+	}
+	void Add(int x){
+	}
+	void DelN(){
+	}
+	}	~Queue() {
+		while (Head){
+			Tail = Head->Next;
+			Head = Tail;
+		}
+
+	};
+};

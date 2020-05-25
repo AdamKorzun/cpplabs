@@ -1,0 +1,11 @@
+//---------------------------------------------------------------------------
+
+#pragma hdrstop
+
+#include "DLList.h"
+#include "Queue.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+class DLList : private Queue{
+
+};
